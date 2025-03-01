@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "3.2",
   title: "Deepseek-ai-Janus",
-  description: "Janus-Pro is a novel autoregressive framework that unifies multimodal understanding and generation.",
+  description: "Janus Pro 7B is a powerful multimodal AI model designed for advanced image understanding and text-to-image generation.",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
